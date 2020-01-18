@@ -4,12 +4,6 @@ convert_sec = time_sec % 60
 convert_min = (time_sec // 60) % 60
 convert_hour = time_sec // 3600
 
-if convert_hour < 10:
-    convert_hour = "0" + str(convert_hour)
-if convert_min < 10:
-    convert_min = "0" + str(convert_min)
-if convert_sec < 10:
-    convert_sec = "0" + str(convert_sec)
 
-print(f"Yesterday you spent at work {convert_hour}:{convert_min}:{convert_sec}")
+print(f"Yesterday you spent at work {convert_hour:02}:{convert_min:02}:{convert_sec:02}")
 
