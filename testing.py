@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # n = 10
 # g = n
 # n = 5
