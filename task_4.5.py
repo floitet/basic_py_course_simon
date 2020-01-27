@@ -23,3 +23,4 @@ for el in range(len(orig_list)):
         result = result * orig_list[el]
 
 print(result)
+

@@ -48,3 +48,4 @@ for el in cycle(orig_list):
 # print(operating_list)
 # random.shuffle(operating_list)
 # print(operating_list)
+

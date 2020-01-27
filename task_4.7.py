@@ -33,3 +33,5 @@ for el in fact(int(input('Last number of your factorial sequence.'))):
     print(el)
 
 
+
+
