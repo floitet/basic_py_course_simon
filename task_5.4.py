@@ -1,5 +1,4 @@
 
-# Task 5.4
 translate_dict = {
     'One': "Один",
     'Two': "Два",

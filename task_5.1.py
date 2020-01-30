@@ -1,5 +1,4 @@
 
-# Task 5.1
 # вариант с записью в файл по одной строке
 with open('text_1.txt', 'w') as f:
     announce = input('This script allows you to write text lines into a file.\n'
