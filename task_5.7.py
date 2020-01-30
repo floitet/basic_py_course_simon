@@ -1,3 +1,4 @@
+
 # Task 5.7
 # решение с помощь split и проверки isdigit
 import json
@@ -12,3 +13,4 @@ with open('text_7.txt', 'r') as f:
     final_list = [companies_dict, profit_dict]
 with open('task_5.7.json', 'w') as f:
     json.dump(final_list, f)
+    

@@ -1,3 +1,4 @@
+
 # Task 5.3
 # решение без словаря, фактически - этот скрипт решает задачу,
 # но не дает возможности дальше удобно работать с данными
@@ -21,3 +22,4 @@ with open('text_3.txt', 'r') as f:
             print(el)
     print(f'And here is the average salary for one employee '
           f'{sum(salaries_dict_all.values()) / len(salaries_dict_all.values())}')
+

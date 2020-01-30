@@ -1,3 +1,4 @@
+
 # Task 5.1
 # вариант с записью в файл по одной строке
 with open('text_1.txt', 'w') as f:
@@ -23,3 +24,4 @@ while True:
 
 with open('text_1.txt', 'w') as f:
     f.writelines(user_writes_list)
+

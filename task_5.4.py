@@ -1,5 +1,5 @@
-# Task 5.4
 
+# Task 5.4
 translate_dict = {
     'One': "Один",
     'Two': "Два",
@@ -20,3 +20,4 @@ with open('text_4.txt', 'r') as numbers_f:
     write_list = [f'{translate_dict[i[:i.find(" ")]]} - {i[i.find(" ") + 3]}\n' for i in numbers_f]
 with open('text_file_2.2.txt', 'w') as f:
     f.writelines(write_list)
+
