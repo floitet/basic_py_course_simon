@@ -8,7 +8,7 @@ with open('text_7.txt', 'r') as f:
         summary = op_list[0] - op_list[1]
         companies_dict[line[:line.find(" ")]] = summary
     avg_list = [val for el, val in companies_dict.items() if val > 0]
-    profit_dict = dict(avg_profit=sum(avg_list) / len(companies_dict.items()))
+    profit_dict = dict(avg_profit=sum(avg_list) / len(avg_list))
     final_list = [companies_dict, profit_dict]
 with open('task_5.7.json', 'w') as f:
     json.dump(final_list, f)
