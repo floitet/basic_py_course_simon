@@ -19,4 +19,3 @@ with open('text_4.txt', 'r') as numbers_f:
 with open('text_file_2.2.txt', 'w') as f:
     f.writelines(write_list)
 
->>>>>>> lesson05
