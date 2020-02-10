@@ -1,5 +1,5 @@
 # Task 8.1
-class Date(object):
+class Date:
 
     def __init__(self, day=0, month=0, year=0):
         self.day = day
@@ -14,8 +14,8 @@ class Date(object):
 
     @staticmethod
     def is_date_valid():
-        return day_int <= 31 and month_int <= 12 and year_int <= 3999
+        return day_int <= 31 and month_int <= 12 and year_int <= 2020
 
 date2 = Date.from_string('11-09-2012')
 print(date2.day, date2.month, date2.year)
-is_date = Date.is_date_valid()
+print(date2.is_date_valid())
